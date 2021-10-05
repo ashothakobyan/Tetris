@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.main{
+    height: 520px;
+    width: 270px;
+    margin: 25px auto;
+    border: 10px solid silver;
+    font-size: 0;
+}
+.box{
+    /* border:1px solid silver; */
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+}
+.activ{
+    border: 1px solid silver;
+}
+.fixed{
+    background-color: green;
+    border: 1px solid silver;
+}
+.lvl,.score{
+    color: white;
+    display: inline;
+}
+.nextelement{
+    height: 40px;
+    width: 40px;
+    font-size: 0;
+    margin:0 auto;
+}
+.nextBox{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+}
+.nextactiv{
+    border: 1px solid silver;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color:tomato;
+}
